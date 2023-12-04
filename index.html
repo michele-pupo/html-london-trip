@@ -3,21 +3,22 @@
   <head>
     <title>Viaggio a Londra</title>
   </head>
+
   <body>
-
+    <!-- si possono anche inserire "h1" e le "immagini" in header, più corretto -->
     <header>
-    <!-- Titolo -->
-    <h1>Il mio viaggio a Londra</h1>
-    <!-- immagini Londra -->
+      <!-- Titolo -->
+      <h1>Il mio viaggio a Londra</h1>
 
-      <!-- si può anche inserire "h1" in header, più corretto -->
-        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="image of London 1">
-        <img src="img/pexels-bill-emrich-230794-1.jpg" alt="image of London 2">
-        <img src="img/pexels-bill-emrich-230794-2.jpg" alt="image of London 3">
+          <!-- immagini Londra -->
+          <img src="img/pexels-bill-emrich-230794-0.jpg" alt="image of London 1">
+          <img src="img/pexels-bill-emrich-230794-1.jpg" alt="image of London 2">
+          <img src="img/pexels-bill-emrich-230794-2.jpg" alt="image of London 3">
     </header>
-    
+
     <hr>
 
+    <!-- in ogni documento ci può esssere solo un h1 -->
     <!-- spese tabellate -->
     <h2>Le mie spese</h2>
 
@@ -46,13 +47,16 @@
                 <td>Biglietto aereo</td>
                 <td>120€</td>
             </tr>
-            <tr>
-                <td>Totale</td>
-                <td></td>
-                <td>360€</td>
-            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+              <!-- "colspan" serve ad inserire uno spazio vuoto in una tabella -->
+              <td colspan="2"> Totale</td>
+              <td>360€</td>
+            </tr>
+        </tfoot>
     </table>
+    
     <hr>
 
     <!-- cosa fare a Londra -->
